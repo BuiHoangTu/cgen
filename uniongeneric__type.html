@@ -63,6 +63,8 @@ $(function() {
 
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Các hàm thành viên Public</a>  </div>
   <div class="headertitle"><div class="title">generic_type Union Tham chiếu</div></div>
 </div><!--header-->
 <div class="contents">
@@ -76,9 +78,57 @@ Sơ đồ liên kết cho generic_type:</div>
 <area shape="rect" title=" " alt="" coords="5,5,100,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">Chú giải</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Các hàm thành viên Public</h2></td></tr>
+<tr class="memitem:a46c338d7295e88dce828ae386da16140"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uniongeneric__type.html#a46c338d7295e88dce828ae386da16140">gtype_cmp_s</a> (<a class="el" href="gtype_8h.html#a22df69f0a905ba3f8c833d29b2adfa46">gtype</a> v1, <a class="el" href="gtype_8h.html#a22df69f0a905ba3f8c833d29b2adfa46">gtype</a> v2)</td></tr>
+<tr class="separator:a46c338d7295e88dce828ae386da16140"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Mô tả chi tiết</h2>
 <div class="textblock"><p >Kiểu dữ liệu cơ bản của các cấu trúc dữ liệu được triển khai. <a class="el" href="gtype_8h.html#a22df69f0a905ba3f8c833d29b2adfa46">gtype</a> có thể thay thế cho 1 nhóm kiểu dữ liệu. </p>
-</div><hr/>Thông tin cho union được biên soạn từ các file sau đây:<ul>
+</div><h2 class="groupheader">Thông tin về hàm thành viên</h2>
+<a id="a46c338d7295e88dce828ae386da16140" name="a46c338d7295e88dce828ae386da16140"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46c338d7295e88dce828ae386da16140">&#9670;&nbsp;</a></span>gtype_cmp_s()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int gtype_cmp_s </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="gtype_8h.html#a22df69f0a905ba3f8c833d29b2adfa46">gtype</a>&#160;</td>
+          <td class="paramname"><em>v1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="gtype_8h.html#a22df69f0a905ba3f8c833d29b2adfa46">gtype</a>&#160;</td>
+          <td class="paramname"><em>v2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Hàm so sánh các giá trị gtype chứa con trỏ chuỗi ký tự.</p>
+<dl class="params"><dt>Các tham số</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v1</td><td>Đối số thứ nhất. </td></tr>
+    <tr><td class="paramname">v2</td><td>Đỗ số thứ 2. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Giá trị trả về</dt><dd>Giá trị trả về theo định dạng strcmp <br  />
+ -1 nếu v1.s &lt; v2.s, <br  />
+ 1 nếu ngược lại và v1.s &gt; v2.s, <br  />
+ 0 nếu ngược lại (v1.s == v2.s). <br  />
+ </dd></dl>
+
+</div>
+</div>
+<hr/>Thông tin cho union được biên soạn từ các file sau đây:<ul>
 <li>base/<a class="el" href="gtype_8h_source.html">gtype.h</a></li>
 </ul>
 </div><!-- contents -->
